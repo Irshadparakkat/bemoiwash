@@ -1,0 +1,387 @@
+{
+    "db": "moiwash",
+    "open_api": {
+        "arrData": [
+            {
+                "strEndPoint": "/user/login_user",
+                "intPort": 3000
+            },
+            {
+                "strEndPoint": "/user/register_user",
+                "intPort": 3000
+            }
+        ]
+    },
+    "cln_user": {
+        "arrData": [
+            {
+                "strName": "admin",
+                "strFullName": "admin",
+                "strMobileNo": "7907382640",
+                "strEmail": "admin@mail.com",
+                "strImageUrl": "",
+                "strHashPassword": "$2b$10$zw0DvEnvqALJixlf197ifu4P0yNyRmafeCEbn7Fb9ZMYf9YHs7azK",
+                "chrStatus": "N",
+                "strType": "ADMIN"
+            }
+        ]
+    },
+    "cln_all_type": {
+        "arrData": [
+            {
+                "strType": "vehicle",
+                "strName": "Wan"
+            },
+            {
+                "strType": "vehicle",
+                "strName": "Bike"
+            },
+            {
+                "strType": "service",
+                "strName": "Washing"
+            },
+            {
+                "strType": "service",
+                "strName": "Tinting"
+            },
+            {
+                "strType": "expense",
+                "strName": "fuel"
+            },
+            {
+                "strType": "expense",
+                "strName": "salik"
+            },
+            {
+                "strType": "expense",
+                "strName": "parking"
+            },
+            {
+                "strType": "expense",
+                "strName": "water"
+            },
+            {
+                "strType": "expense",
+                "strName": "material purchasing"
+            },
+            {
+                "strType": "expense",
+                "strName": "fines"
+            },
+            {
+                "strType": "expense",
+                "strName": "accommodation"
+            },
+            {
+                "strType": "expense",
+                "strName": "sim charge"
+            },
+            {
+                "strType": "expense",
+                "strName": "salary "
+            },
+            {
+                "strType": "expense",
+                "strName": "vehicle services"
+            },
+            {
+                "strType": "expense",
+                "strName": "Trade license renewal"
+            },
+            {
+                "strType": "expense",
+                "strName": "labour visa"
+            },
+            {
+                "strType": "expense",
+                "strName": "labour insurance"
+            },
+            {
+                "strType": "expense",
+                "strName": "other"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "SUV"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Sedan"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Coupe"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Convertible"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Hatchback"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Pickup"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Minivan"
+            },
+            {
+                "strType": "vehicleModel",
+                "strName": "Wagon"
+            }
+        ],
+        "arrIndex": [
+            [
+                {
+                    "strName": 1
+                },
+                {
+                    "unique": true
+                }
+            ]
+        ]
+    },
+    "cln_zone": {
+        "arrData": [
+            {
+                "strZoneName": "Dubai",
+                "strZonePolygon": {
+                    "type": "Polygon",
+                    "coordinates":[
+                        [55.079316, 24.792613],
+                        [55.161159, 24.845953],
+                        [55.209233, 24.895799],
+                        [55.236703, 24.949516],
+                        [55.243571, 24.979090],
+                        [55.28306, 25.020325],
+                        [55.308814, 25.046771],
+                        [55.334567, 25.000098],
+                        [55.364613, 24.950684],
+                        [55.39981, 24.956521],
+                        [55.416979, 24.974421],
+                        [55.403673, 24.992318],
+                        [55.447454, 25.028104],
+                        [55.396376, 25.087206],
+                        [55.496137, 25.162297],
+                        [55.566819, 25.233632],
+                        [55.466988, 25.273300],
+                        [55.385694, 25.304466],
+                        [55.351226, 25.305642],
+                        [55.356428, 25.327394],
+                        [55.292043, 25.359721],
+                        [55.245218, 25.269184],
+                        [55.241316, 25.216241],
+                        [55.229610, 25.226831],
+                        [55.167176, 25.263302],
+                        [55.131094, 25.224495],
+                        [55.134500, 25.195358],
+                        [55.178732, 25.191654],
+                        [55.198508, 25.218325],
+                        [55.226867, 25.215287],
+                        [55.214926, 25.17916],
+                        [55.189926, 25.153832],
+                        [55.166045, 25.121741],
+                        [55.132836, 25.148765],
+                        [55.101203, 25.111954],
+                        [55.119646, 25.072073],
+                        [55.076362, 25.029451],
+                        [55.058672, 25.050252],
+                        [55.034583, 25.037635],
+                        [54.972103, 25.037976],
+                        [54.940487, 25.011033],
+                        [54.963823, 24.967707],
+                        [54.929571, 24.939383],
+                        [54.903977, 24.959859],
+                        [54.889298, 24.947233],
+                        [54.903225, 24.934264],
+                        [54.897202, 24.91037],
+                        [55.037588, 24.854405],
+                        [55.077746, 24.792426],
+                        [55.079325, 24.791321]
+                    ]
+                }
+            }
+        ],
+        "arrIndex": [
+            [
+                {
+                    "strZoneName": 1
+                },
+                {
+                    "unique": true
+                }
+            ]
+        ]
+    },
+    "cln_coin_value": {
+        "arrData": [
+            {
+                "strName": "Coin Basic Data",
+                "intOneCoinValue": 20,
+                "intToGetOneCoin": 5
+            }
+        ]
+    },
+    "cln_locations": {
+        "arrData": [
+            {
+                "strName": "Coin Basic Data",
+                "intOneCoinValue": 20,
+                "intToGetOneCoin": 5
+            }
+        ]
+    },
+    "cln_booking_targets": {
+        "arrData": [
+            {
+                "strMonth": "January",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "February",
+                "intTarget": 100
+            },
+            
+            {
+                "strMonth": "March",
+                "intTarget": 100
+            },
+            
+            {
+                "strMonth": "April",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "May",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "June",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "July",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "August",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "September",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "October",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "November",
+                "intTarget": 100
+            },
+            {
+                "strMonth": "December",
+                "intTarget": 100
+            }
+        ]
+    },
+    "cln_account": {
+        "arrData": [
+            {
+                "strRemarks": "Profit",
+                "strAccountType": "Company Revenue",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Fuel",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Salik",
+                "strUserId": null,
+                "chrStatus": "N"
+
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Parking",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Water",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Material Purchasing",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Fines",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Accommodation",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Sim Charge",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Salary",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Vehicle Services",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Trade License Renewal",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Labour Visa",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Labour Insurance",
+                "strUserId": null,
+                "chrStatus": "N"
+            },
+            {
+                "strRemarks": "Expense",
+                "strAccountType": "Other",
+                "strUserId": null,
+                "chrStatus": "N"
+            }
+        ]
+        
+    }
+}

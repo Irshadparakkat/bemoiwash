@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "6fff47d2-09ac-48c4-82a0-b1acd2dd4b2a",
+		"name": "Stellar new",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26538284"
+	},
+	"item": [
+		{
+			"name": "Make Admin api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"isAdmin\" :true,\r\n    \"strUserId\" :\"64f9d3e7fe4d5423fd4229fe\",\r\n    \"strGroupId\" :\"651ce4285a7ba6c22ecd5571\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4100/update_group_admin",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"update_group_admin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dismiss as admin api",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"isAdmin\" :true,\r\n    \"strUserId\" :\"64f9d3e7fe4d5423fd4229fe\",\r\n    \"strGroupId\" :\"651ce4285a7ba6c22ecd5571\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4100/update_group_admin",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"update_group_admin"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

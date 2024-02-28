@@ -1,0 +1,208 @@
+{
+	"info": {
+		"_postman_id": "e9883a18-7337-4c3a-9a49-f96bbaa02f39",
+		"name": "favourite stellar",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26538284"
+	},
+	"item": [
+		{
+			"name": "create flick favourite",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"strFlickId\":\"65211feff649fbeccd2d154a\",\r\n    \"strType\" :\"flick\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4100/create_favorite",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"create_favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove flick favourite",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"strFlickId\":\"65211feff649fbeccd2d154a\",\r\n    \"strType\" :\"flick\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4100/remove_favorite",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"remove_favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create channel favourite",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"strChannelId\":\"6523705c10b4a045441b3179\",\r\n    \"strType\" :\"channel\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4100/create_favorite",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"create_favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove favourite channel",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"strChannelId\":\"6523705c10b4a045441b3179\",\r\n    \"strType\" :\"channel\"\r\n}"
+				},
+				"url": {
+					"raw": "localhost:4100/remove_favorite",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"remove_favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "flickFavourite list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:4100/get_flick_favorite",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"get_flick_favorite"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "channelFavouriteLIst",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "U2FsdGVkX19dAbDxGrG+k1ixbU5dPscQUPvDo0eJvqc2PwkI3uPIFfZ7iaFUxLnz6ABiXr5mAdn9UOdNdsRXZeq6T3sfpQJRg5nuIprBT9S/iQD3hUgfTqBO2PINL+9iuGWOR4YI1LADKFgOuc8H1ITKE6hT1H6i9hhx1XONBdrHUhv/t6Gs90d5HPlOAhwn2q0o699vURAoYHyTc+2DqDipQeMIcdOeVQ8nRJVLyUlOrUeXKpzQHDSI0JrSwfBH/NjNWlhKaXLh6/qZr8T7TtuinVeMceYYpN8j1sfHWZ3s33LCdJYOzZdM2v7vzOaBX1OS0LnJidR8sdLJ44Koy1Od+O6FUZjorqPZbWIYmzmLZ78DbiH9FBBdflaxsDi8U5coewjwb8St9WZjs6yS6aVY5S7N4GD9xmgoAxRd2Kxf5Yql7UfjvmaK0KZULXz2",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:4100/get_channel_favorite",
+					"host": [
+						"localhost"
+					],
+					"port": "4100",
+					"path": [
+						"get_channel_favorite"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
